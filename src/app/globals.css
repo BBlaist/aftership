@@ -27,10 +27,10 @@ body {
 
 @keyframes float {
   0%, 100% {
-    transform: translateY(0) rotate(-6deg);
+    transform: translateY(0) rotate(-16deg);
   }
   50% {
-    transform: translateY(-8px) rotate(-12deg);
+    transform: translateY(-10px) rotate(-20deg);
   }
 }
 

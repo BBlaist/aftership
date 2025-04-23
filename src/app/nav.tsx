@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Nav() {
   return (
-    <nav className="bg-green-700 w-full h-24 flex items-center p-4 text-gray-200">
+    <nav className="bg-green-700 w-full h-24 flex items-center p-4 text-gray-200 absolute top-0 left-0 z-10">
         <Image
           src="/aftership-logo2.png"
           alt="Logo"
@@ -16,6 +16,5 @@ export default function Nav() {
           <a href="">Contact</a>
         </div>
       </nav>
-
-);
+  );
 }
